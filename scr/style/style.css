@@ -5,14 +5,51 @@
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: var(--mainbgcolor);
 }
 
+h1 {
+    font-family: 'Palanquin Dark';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
 .landing-section {
-    height: calc(100vh / 2);
+    height: 100vh;
+    position: relative;
+}
+
+.landing-picture {
+    width: 100%;
+    height: 50%;
     background-image: url(../assets/imgs/Backround_img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.teste {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: blueviolet;
+    border-radius: 50%;
+
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
 }

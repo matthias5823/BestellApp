@@ -1,0 +1,41 @@
+.menu-card{
+    height: 140px;
+    width: 713px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #d4d4dc;
+    font-family: 'Palanquin';
+    background-color: var(--cardhdcolor);
+    border-radius: 12px;
+    border: 1px solid #d4d4dc;
+    gap: 10px;
+    padding: 10px;
+}
+
+.picture{
+    width: 207px;
+    height: 121px;
+    border-radius: 12px;
+    background-color: blanchedalmond;
+}
+
+.product-content{
+    width: 370px;
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+
+.order-section{
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price{
+    font-weight: 600;
+    font-size: 24px;
+}
