@@ -1,0 +1,12 @@
+.main-logo{
+    width: 120px;
+    height: 47px;
+}
+
+.main-logo-knife{
+    fill: var(--cardhdcolor);
+}
+
+.main-logo-fork{
+    fill: var(--cardhdcolor);
+}
