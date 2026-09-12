@@ -3,11 +3,5 @@
     height: 128px;
     display: flex;
     align-items: center;
-    background-color: var(--mainhdcolor) ;
-}
-
-
-
-.first{
-    
+    background-color: var(--cardbgcolor) ;
 }

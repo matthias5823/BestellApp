@@ -10,7 +10,7 @@ a {
 }
 
 body {
-    background-color: var(--mainbgcolor);
+    background-color: var(--cardbgcolor);
 }
 
 h1 {
@@ -37,7 +37,7 @@ h3 {
 .landing-picture {
     width: 100%;
     height: 50%;
-    background-image: url(../assets/imgs/Backround_img.jpg);
+    background-image: url(../assets/imgs/bg_landing.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,9 +47,14 @@ h3 {
     width: 100px;
     height: 100px;
     position: absolute;
-    background-color: blueviolet;
     border-radius: 50%;
 
     top: calc(50% - 50px);
     left: calc(50% - 50px);
+}
+
+nav{
+width: 100%;
+height: 40px;
+background-color: var(--cardhdcolor);
 }
