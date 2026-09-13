@@ -58,3 +58,19 @@ width: 100%;
 height: 40px;
 background-color: var(--cardhdcolor);
 }
+
+.food-menus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Palanquin';
+}
+
+.menus-header{
+    width: 100%;
+    height: 60px;
+    background-color: var(--cardhdcolor);
+    color: var(--fontscolor2);
+}
