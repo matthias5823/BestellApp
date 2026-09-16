@@ -32,6 +32,9 @@ h3 {
 .landing-section {
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .landing-picture {
@@ -42,15 +45,27 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.landing-section-down{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--fontscolor);
+}
+
+.first{
+    color: var(--fontscolor2);
+}
 
 .teste {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     border-radius: 50%;
 
-    top: calc(50% - 50px);
-    left: calc(50% - 50px);
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
 }
 
 nav{
@@ -59,3 +74,9 @@ height: 40px;
 background-color: var(---cardhdcolor);
 }
 
+
+.footer{
+    width: 100%;
+    height: 128Px;
+    background-color: var(--cardhdcolor);
+}

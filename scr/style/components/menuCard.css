@@ -31,6 +31,13 @@
     padding: 10px;
 }
 
+.meal-card{
+display: flex;
+flex-direction: column;
+gap: 16px;
+padding: 23px 0 45px 119px;
+}
+
 .picture {
     width: 207px;
     height: 121px;
@@ -71,20 +78,68 @@
     width: 435px;
     height: 794px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     color: #feda6a;
     background-color: #393f4d;
     border: none;
     border-radius: 25px 0 0 25px;
+    padding: 0 64px;
 }
 
 .order-basket-overview {
     width: 340px;
     height: 355px;
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     background-color: #1d1e22;
     left: 31px;
     top: 136px;
     border-radius: 25px;
+}
+
+.section-sum-of-dishes-card {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.line {
+    width: 100%;
+}
+
+
+/* <############### Warenkorb card ############### */
+
+.basket-card {
+    width: 340px;
+    height: 103px;
+    background-color: var(--fontscolor2);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.basket-card-header {
+    width: 100%;
+    height: 28px;
+}
+
+.basket-card>p {
+    width: 100%;
+    text-align: end;
+}
+
+.basket-control-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket-control{
+    display: flex;
+    gap: 8px;
 }

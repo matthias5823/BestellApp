@@ -9,6 +9,7 @@ let foodMenus = [
                 "price": 9.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": "Pikante Gulaschsuppe",
@@ -17,6 +18,7 @@ let foodMenus = [
                 "price": 10.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": "Pikante Gulaschsuppe",
@@ -25,6 +27,7 @@ let foodMenus = [
                 "price": 10.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
         ]
     },
@@ -38,6 +41,7 @@ let foodMenus = [
                 "price": 22.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": "Haus - Salatteller",
@@ -46,6 +50,7 @@ let foodMenus = [
                 "price": 19.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": "Gemischter Salat",
@@ -54,6 +59,7 @@ let foodMenus = [
                 "price": 5.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
         ]
     },
@@ -67,6 +73,7 @@ let foodMenus = [
                 "price": 19.00,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": "Münchner Schnitzel",
@@ -75,6 +82,7 @@ let foodMenus = [
                 "price": 19.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": "Cordon Bleu",
@@ -83,6 +91,7 @@ let foodMenus = [
                 "price": 23.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": "Haus - Pfanderl",
@@ -91,6 +100,7 @@ let foodMenus = [
                 "price": 23.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
         ]
     },
@@ -104,6 +114,7 @@ let foodMenus = [
                 "price": 17.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": '"Allgäuer" Käsespätzle',
@@ -112,6 +123,7 @@ let foodMenus = [
                 "price": 19.90,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": "Rahmschwammerl m. Semmelknödel",
@@ -120,6 +132,7 @@ let foodMenus = [
                 "price": 17.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": '"Allgäuer" Schupfnudeln',
@@ -128,6 +141,7 @@ let foodMenus = [
                 "price": 17.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
         ]
     },
@@ -141,6 +155,7 @@ let foodMenus = [
                 "price": 19.90,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
             {
                 "menu": 'Apfelstrudel',
@@ -149,6 +164,7 @@ let foodMenus = [
                 "price": 9.50,
                 "pic_scr" : "",
                 "pic_alt" : "",
+                "menge" : 0,
             },
         ]
     },

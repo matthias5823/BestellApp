@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./scr/style/variables.css">
+    <link rel="stylesheet" href="./scr/style/style.css">
+    <link rel="stylesheet" href="./scr/style/components/header.css">
+    <link rel="stylesheet" href="./scr/style/components/logo.css">
+    <link rel="stylesheet" href="./scr/style/components/menuCard.css">
+    <link rel="stylesheet" href="./scr/style/components/fonts.css">
+    <link rel="stylesheet" href="./scr/style/components/button.css">
+    <script src="./scr/JS/db/menu.js" defer></script>
+    <script src="./scr/JS/script.js" defer></script>
+    <script src="./scr/JS/temp/navbutton.js" defer></script>
+</head>
+
+<body>
+
+    <section class="basket-card">
+        <header class="basket-card-header">
+            <h4><span>1 x </span>Gericht</h4>
+        </header>
+        <p id="menu_price">19.50 €</p>        
+        <div class="basket-control-section">
+            <div class="basket-control">
+                <button onclick="removeToBasket(menusCard, indexMenu)">delete</button>
+                <p>2</p>
+                <button onclick="addToBasket(menusCard, indexMenu)">Added</button>                
+            </div>
+            
+            <p id="total_menu_price">19.50 €</p>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
