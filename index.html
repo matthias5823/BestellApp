@@ -11,9 +11,12 @@
     <link rel="stylesheet" href="./scr/style/components/header.css">
     <link rel="stylesheet" href="./scr/style/components/logo.css">
     <link rel="stylesheet" href="./scr/style/components/menuCard.css">
+    <link rel="stylesheet" href="./scr/style/components/nav_and_Button.css">
     <link rel="stylesheet" href="./scr/style/components/fonts.css">
     <script src="./scr/JS/db/menu.js" defer></script>
+    <script src="./scr/JS/db/basket.js" defer></script>
     <script src="./scr/JS/temp/categoryCard.js" defer></script>
+    <script src="./scr/JS/temp/dishesCard.js" defer></script>
     <script src="./scr/JS/temp/menuCard.js" defer></script>
     <script src="./scr/JS/script.js" defer></script>
 
@@ -56,8 +59,6 @@
                     d="M70.1772 0V8.65582C70.1772 8.86781 70.0024 9.03904 69.7887 9.03493C69.5791 9.03082 69.415 8.85171 69.415 8.64281V0H68.745V8.65582C68.745 8.86781 68.5708 9.0387 68.3571 9.03493C68.1472 9.03116 67.9827 8.85205 67.9827 8.64315V0H67.3127V8.64281C67.3127 8.85137 67.1489 9.03082 66.9389 9.03493C66.7252 9.03904 66.5504 8.86815 66.5504 8.65582V0H65.8508L65.1346 8.57295C65.1346 10.2466 65.2689 11.5212 65.6588 12.4315C66.166 13.6147 66.4482 14.8815 66.4482 16.1678V30.6658H70.2664V16.1675C70.2664 14.8808 70.5489 13.6144 71.0558 12.4308C71.4457 11.5209 71.5799 10.2466 71.5799 8.57329L70.8769 0H70.1772Z" />
             </g>
         </svg>
-
-
     </header>
     <main>
         <section class="landing-section">
@@ -72,19 +73,39 @@
             <img class="teste" src="./scr/assets/imgs/BayernBisw.webp" alt="">
         </section>
 
-        <section id="food_menus" class="food-menus">
+        <section id="food_menus" class="food-menus">            
+            
+            <article class="basket-overview-card">
+                <h3>Deine Bestellung</h3>
+                <section id="order_basket_overview" class="order-basket-overview">
 
+
+                </section>
+
+                <div class="section-sum-of-dishes-card">
+                    <p>Summe der Gerichte</p>
+                    <p id="cost_of_dishes">0.00<span> €</span></p>
+                </div>
+                <div class="section-sum-of-dishes-card">
+                    <p id="discount_content">Liefergebühr</p>
+                    <p id="discount_money">4.95<span> €</span></p>
+                </div>
+                <hr class="line">
+                <div class="section-sum-of-dishes-card">
+                    <p id="total_content">Gesamt Preis</p>
+                    <p id="total_order">0.00<span> €</span></p>
+                </div>
+
+                <button id="butten_to_order" class="butten-to-order">Jetzt bestellen</button>
+            </article>
+
+
+
+        
         </section>
-
-
-
-
-
-
-
     </main>
     <footer class="footer">
-
+        
     </footer>
 
 

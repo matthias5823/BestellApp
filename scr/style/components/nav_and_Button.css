@@ -1,0 +1,51 @@
+button {
+    font-family: 'Palanquin';
+    background: transparent;
+    border: none;
+    color: var(--fontscolor2);
+    cursor: pointer;
+}
+
+/*<------ Menu card ------>*/
+
+.button-menu-card {
+    height: 30px;
+    width: 90px;
+    background-color: var(--mainbgcolor);
+    color: black;
+}
+
+.button-menu-card:hover {
+    background-color: var(--cardbgcolor);
+    color: var(--fontscolor2);
+
+}
+
+.button-menu-card:active {
+    background-color: var(--mainbgcolor);
+}
+
+
+
+/*<------ Basket card ------>*/
+
+.butten-to-order {
+    width: 300px;
+    height: 60px;
+    color: var(--cardbgcolor);
+    font-weight: 700;
+    background-color: var(--fontscolor);
+    border-radius: 60px;
+    transition: all 0.2s ease;
+    margin-top: 31px;
+}
+
+.butten-to-order:hover {
+
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.butten-to-order:active {
+
+}
