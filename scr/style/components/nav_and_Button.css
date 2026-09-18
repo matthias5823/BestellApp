@@ -49,3 +49,17 @@ button {
 .butten-to-order:active {
 
 }
+
+/*<------ Basket-dish card ------>*/
+
+.button-delete-dish{
+color: black;
+}
+
+.button-sub-dish{
+color: black;
+}
+
+.button-add-dish{
+color: black;
+}
