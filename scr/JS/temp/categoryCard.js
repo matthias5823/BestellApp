@@ -1,3 +1,4 @@
+// Erklärung: Liefert Überschrift und leeren Gerichtebereich einer Kategorie. Die erzeugte ID menus_Kategoriename wird später von setMenuCard gesucht.
 function renderCategoryCard(menuName) {
     return `
     <section id="menus_card${menuName}" class="section-menu" alt="Übersicht an Gerichten von ${menuName}">

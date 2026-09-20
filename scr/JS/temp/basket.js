@@ -1,3 +1,4 @@
+// Erklärung: Liefert das HTML-Grundgerüst für Warenkorb, Summen und Bestellbutton. Die Gerichteliste wird separat gefüllt; diese Funktion fügt selbst nichts in die Seite ein.
 function renderBasket() {
     return `
                 <article class="basket-overview-card" aria-label="Deine Bestellung">
@@ -24,7 +25,7 @@ function renderBasket() {
                     <p id="total_order" aria-labelledby="total-label total_order">4.95<span> €</span></p>
                 </div>
 
-                <button id="butten_to_order" class="butten-to-order" aria-label="Bestellung jetzt abschicken"></button>
+                <button id="butten_to_order" class="butten-to-order" onclick="openDialog()" aria-label="Bestellung jetzt abschicken"></button>
             </article> 
     
     `

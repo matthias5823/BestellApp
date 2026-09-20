@@ -1,3 +1,6 @@
+// Erklärung: Die Ausdrücke mit buyFood >= 2 liefern bei Menge 1 das Attribut hidden; ab Menge 2 bleiben Minusbutton und Einzelpreis sichtbar.
+// Erklärung: Ausdrücke innerhalb von ${...} werden beim Aufruf der Vorlage ausgewertet. Eine Mengenänderung erfordert deshalb erneutes Rendern.
+// Erklärung: Liefert eine Warenkorbposition: buyFood ist die Menge, price der Einzelpreis und totalPrice der Positionspreis. Die Preise werden als Anzeigetexte übergeben.
 function renderDishCard(buyFood, foodName, price, totalPrice) {
     return `
         <section class="basket-card">

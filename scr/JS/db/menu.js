@@ -1,3 +1,7 @@
+// Erklärung: Speisekartendaten: foodMenus enthält Kategorien; jede Kategorie enthält ihr eigenes menus-Array mit Gerichten.
+// Erklärung: category = Kategorie, menu = Gerichtname, foodContent = Beschreibung, ingredients = Zutaten-/Allergenangaben.
+// Erklärung: price = numerischer Einzelpreis in Euro; pic_scr = Bildpfad; pic_alt = vorgesehener Alternativtext.
+// Erklärung: Die tatsächlichen Bestellmengen werden im separaten basket-Array gepflegt, nicht in den menge-Feldern dieser Speisekarte.
 let foodMenus = [
     {
         "category": "Suppen",

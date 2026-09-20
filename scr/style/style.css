@@ -45,6 +45,10 @@ h3 {
 
 }
 
+.landing-content{
+    width: 80ch;
+    text-align: center;
+}
 .landing-picture {
     width: 100%;
     height: 50%;
@@ -132,6 +136,84 @@ address {
 
 .none {
     display: none;
+}
+
+/* Desktop: Name und Bewertung nebeneinander. */
+.ection-down-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.restaurant-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: var(--fontscolor2);
+}
+
+.rating-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    padding: 0;
+}
+
+.button-star {
+    width: 32px;
+    height: 32px;
+    stroke-width: 2px;
+    stroke: var(--mainbtfscolor);
+}
+
+/* Diese Klasse erhält der Stern nach dem ersten Klick. */
+.button-star.is-rated {
+    fill: var(--mainbtfscolor);
+}
+
+.rating-button:focus-visible {
+    outline: 2px solid var(--buttonBgMenu);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+.rating-value {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.rating-count {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Der vorhandene Beschreibungstext darf mobil schmaler werden. */
+.landing-content {
+    width: 100%;
+    max-width: 80ch;
+    padding: 0 16px;
+}
+
+/* Mobil: Bewertung über dem Restaurantnamen. */
+@media (max-width: 900px) {
+    .ection-down-content {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .restaurant-rating {
+        order: -1;
+    }
 }
 
 @media screen and (width >=1440px) {

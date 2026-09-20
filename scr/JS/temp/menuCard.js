@@ -1,3 +1,4 @@
+// Erklärung: Liefert eine Speisekartenkarte. Der Button übergibt Kategorieindex und Gerichtindex an addToBasket; price ist bereits formatierter Anzeigetext.
 function renderMenuCard(foodName, foodContent, price, menusCard, indexMenu, picSrc) {
     return `
 
