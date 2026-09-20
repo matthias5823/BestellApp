@@ -153,7 +153,7 @@
 /* <############### Warenkorb card ############### */
 .basket-card {
     width: 100%;
-    height: 103px;
+    max-height: 103px;
     color: var(--cardhdcolor);
     line-height: 1.1rem;
     background-color: var(--fontscolor2);
@@ -166,19 +166,40 @@
     height: 28px;
 }
 
-.basket-card>p {
+.basket-menu-price {
     width: 100%;
-    text-align: end;
+    height: 25px;
+    text-align:end;
 }
 
 .basket-control-section {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .basket-control {
+    height: 30px;
     display: flex;
-    gap: 8px;
+    gap: 10px;
+    align-items: center;
+}
+
+.basket-control>p{
+    height: 100%;
+    width: 30px;
+    text-align: center;
+    color: var(--fontscolor2);
+    padding-top: 4px;
+    font-weight: 500;
+    border-radius: 50%;
+    background-color: var(--cardhdcolor);
+}
+
+.total-price{
+    height: 30px;
+    text-align: center;
+    font-weight: 800;
 }
 
 /* <############### Scrollbar ############### */

@@ -4,6 +4,15 @@ button {
     border: none;
     color: var(--fontscolor2);
     cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0px);
 }
 
 /*<------ Menu card ------>*/
@@ -11,23 +20,46 @@ button {
 .button-menu-card {
     height: 30px;
     width: 90px;
-    background-color: var(--mainbgcolor);
-    color: black;
+    background-color: var(--buttonBgMenu);
+    font-weight: 700;
+    color: var(--fontscolor2);
+    border-radius: 10px;
 }
 
 .button-menu-card:hover {
     background-color: var(--cardbgcolor);
     color: var(--fontscolor2);
-
 }
 
 .button-menu-card:active {
     background-color: var(--mainbgcolor);
 }
 
-
-
 /*<------ Basket card ------>*/
+.button-plus,
+.button-to-delete {
+    height: 24px;
+    height: 24px;
+    fill: var(--cardbgcolor);
+    border-radius: 5px;
+}
+
+.button-plus:hover,
+.button-to-delete:hover {
+    fill: var(--mainbtcolor);
+}
+
+
+.button-minus {
+    height: 24px;
+    height: 24px;
+    stroke: var(--cardbgcolor);
+    stroke-width: 5px;
+}
+
+.button-minus:hover {
+    stroke: var(--mainbtcolor);
+}
 
 .butten-to-order {
     width: 300px;
@@ -36,14 +68,11 @@ button {
     font-weight: 700;
     background-color: var(--fontscolor);
     border-radius: 60px;
-    transition: all 0.2s ease;
     margin-top: 31px;
 }
 
 .butten-to-order:hover {
-
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px var(--buttonBgMenu2);
 }
 
 .butten-to-order:active {}
@@ -67,7 +96,7 @@ button {
 .button-Home,
 .button-person,
 .taketout-dining,
-.shopping-cart{
+.shopping-cart {
     width: 32px;
     height: 32px;
     fill: var(--fontscolor2);
@@ -105,7 +134,7 @@ button {
     padding: 0 5px;
     border-radius: 50%;
 
-    background-color: #f7882f;
+    background-color: var(--buttonBgMenu);
     color: #1d1e22;
     font-size: 12px;
     font-weight: 700;

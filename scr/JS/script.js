@@ -262,6 +262,7 @@ function addedToBasket(foodName) {
     basket[indexBusket]['menge'] = basket[indexBusket]['menge'] + 1;
     changePriceContent(foodName, indexBusket);
     calculateTotalDishesSum();
+    updateBasketCard();
 }
 
 function updateBasketCount() {

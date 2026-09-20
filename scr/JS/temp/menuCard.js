@@ -10,7 +10,7 @@ function renderMenuCard(foodName, foodContent, price, menusCard, indexMenu, picS
                 <div class="order-section">
                     <p class="price">${price}</p>
     
-                    <button id="${foodName}_Button" class="button-menu-card" onclick="addToBasket(${menusCard}, ${indexMenu})">Add to basket</button>
+                    <button id="${foodName}_Button" class="button-menu-card" onclick="addToBasket(${menusCard}, ${indexMenu})">Bestellen</button>
                 </div>
             </article>
         `;

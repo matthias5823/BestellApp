@@ -1,5 +1,6 @@
 :root{
 --mainbgcolor : #DCC7AA;
+
 --mainhdcolor : #F7882F;
 --mainbtcolor : #6B7A8F;
 --mainbtfscolor : #F7C331;
@@ -8,6 +9,7 @@
 --fontscolor : #d4d4dc;
 --fontscolor2 : #feda6a;
 
-
+--buttonBgMenu:#dcc7aa85;
+--buttonBgMenu2: #f7c23183;
 
 }
