@@ -1,6 +1,6 @@
 function renderCategoryCard(menuName) {
     return `
-    <section id="menus_card${menuName}" class="" alt="Übersicht an Gerichten von ${menuName}">
+    <section id="menus_card${menuName}" class="section-menu" alt="Übersicht an Gerichten von ${menuName}">
         <header id="" class="menus-header">
             <h3>${menuName}</h3>
         </header>

@@ -113,7 +113,7 @@ let foodMenus = [
                 "menge" : 0,
             },
             {
-                "menu": '"Allgäuer" Käsespätzle',
+                "menu": 'Allgäuer Käsespätzle',
                 "foodContent": "mit kleinem gemischten Salat",
                 "ingredients": "Gluten, Eier, Milch",
                 "price": 19.90,
@@ -131,7 +131,7 @@ let foodMenus = [
                 "menge" : 0,
             },
             {
-                "menu": '"Allgäuer" Schupfnudeln',
+                "menu": 'Allgäuer Schupfnudeln',
                 "foodContent": "mit Faßkraut und Bergkäse",
                 "ingredients": "Gluten, Eier, Milch",
                 "price": 17.50,

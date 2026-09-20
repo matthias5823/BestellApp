@@ -1,1 +1,3 @@
-let basket = []
+let basket = [];
+
+let visibleBasket = false;

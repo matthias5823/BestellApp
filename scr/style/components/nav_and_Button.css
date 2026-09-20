@@ -46,20 +46,75 @@ button {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.butten-to-order:active {
-
-}
+.butten-to-order:active {}
 
 /*<------ Basket-dish card ------>*/
 
-.button-delete-dish{
-color: black;
+.button-delete-dish {
+
+    color: black;
 }
 
-.button-sub-dish{
-color: black;
+.button-sub-dish {
+    color: black;
 }
 
-.button-add-dish{
-color: black;
+.button-add-dish {
+    color: black;
+}
+
+/*<------ Nav menu mobile ------>*/
+.button-Home,
+.button-person,
+.taketout-dining,
+.shopping-cart{
+    width: 32px;
+    height: 32px;
+    fill: var(--fontscolor2);
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.button-Home:hover,
+.button-person:hover,
+.taketout-dining:hover,
+.shopping-cart:hover {
+    fill: var(--cardbgcolor);
+    background-color: var(--fontscolor2);
+}
+
+.button-Home:active,
+.button-person:active,
+.taketout-dining:active,
+.shopping-cart:active {
+    fill: var(--mainhdcolor);
+}
+
+.basket-open-button {
+    position: relative;
+}
+
+.basket-count {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+
+    min-width: 22px;
+    height: 22px;
+    padding: 0 5px;
+    border-radius: 50%;
+
+    background-color: #f7882f;
+    color: #1d1e22;
+    font-size: 12px;
+    font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket-count[hidden] {
+    display: none;
 }

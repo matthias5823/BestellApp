@@ -5,19 +5,45 @@
     flex-direction: column;
     position: relative;
     font-family: 'Palanquin';
+    flex: 1;
+    min-width: 0;
+}
+
+.menu-categories{
+    flex: 1;
+    min-width: 0;
 }
 
 .menus-header {
     width: 100%;
     height: 60px;
+    display: flex;
+    align-items: center;
     background-color: var(--cardhdcolor);
     color: var(--fontscolor2);
+    position: relative;
+    isolation: isolate;
 }
 
+.menus-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background-color: var(--cardhdcolor);
+    box-shadow: 0 0 0 100vmax var(--cardhdcolor);
+    clip-path: inset(0 -100vmax);
+}
+
+.section-menu {
+    width: 100%;
+    height: auto;
+}
 
 .menu-card {
-    height: 140px;
-    width: 713px;
+    height: clamp(140px, 80%, 227px);
+    max-width: 713px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -34,8 +60,9 @@
 .meal-card {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 16px;
-    padding: 23px 0 45px 119px;
+    padding: 23px 0 45px clamp(5px, 100%, 119px);
 }
 
 .picture {
@@ -75,7 +102,7 @@
 /* <############### Warenkorb ############### */
 
 .basket-overview-card {
-    width: 435px;
+    width: 100%;
     height: 794px;
     display: flex;
     align-items: center;
@@ -84,12 +111,13 @@
     background-color: #393f4d;
     border: none;
     border-radius: 25px 0 0 25px;
-    padding: 0 64px;
-    position: absolute;
-    right: 0px;
+    padding: 0 24px;
+
+    position: sticky;
+    top: 24px;
 }
 
-.basket-overview-card>h3{
+.basket-overview-card>h3 {
     width: 100%;
     height: 136px;
     display: flex;
@@ -157,4 +185,54 @@
 .basket-control {
     display: flex;
     gap: 8px;
+}
+
+@media screen and (width < 1024px) {
+    .order-section {
+        width: 100%;
+        height: 46px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (width < 899px) {
+    .order-section {
+        width: 100%;
+        height: 46px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: #d4d4dc;
+        font-family: 'Palanquin';
+        background-color: var(--cardhdcolor);
+        border-radius: 12px;
+        border: 1px solid var(--fontscolor2);
+        box-shadow: 0 0 0 2px var(--fontscolor2);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .section-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menus-header>h3 {
+        text-align: center;
+    }
+
+    .meal-card {
+        padding: 0px 0 45px 0px;
+    }
 }
